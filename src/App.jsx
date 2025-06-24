@@ -2,11 +2,10 @@
 import React from 'react';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import './css/themes.css'; // importe le fichier
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'; // ✅ Changement ici
+import './css/themes.css';
 import ScrollPage from './ScrollPage';
 import ProjetDetail from './pages/ProjetDetail';
-;
 
 const NotFound = () => (
   <div style={{
