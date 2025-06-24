@@ -8,15 +8,15 @@ const Accueil = ({ scrollToSection }) => {
       style={{
         backgroundColor: 'var(--section-bg)',
         width: '100%',
-        height: '100vh',
+        minHeight: '120vh',
         position: 'relative',
         overflow: 'hidden',
         color: 'var(--text-light)',
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
-        paddingTop: '2rem',
-        paddingBottom: '4rem', // espace pour la flèche
+        paddingTop: '4rem',
+        paddingBottom: '6rem', // espace pour la flèche
         textAlign: 'center',
       }}
     >
