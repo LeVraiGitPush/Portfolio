@@ -65,7 +65,7 @@ const Accueil = ({ scrollToSection }) => {
           animation: 'bounce 2s infinite',
         }}
       >
-        <div style={{ fontSize: '0.9rem', marginTop: '2.5rem'  }}>Slide vers la page à propos</div>
+        <div style={{ fontSize: '0.9rem', marginTop: '1.5rem'  }}>Slide vers la page à propos</div>
         <FaArrowDown size={20} color="var(--accent)" />
       </div>
 
