@@ -24,11 +24,11 @@ const Accueil = ({ scrollToSection }) => {
       <div className="content" style={{ maxWidth: '900px', width: '100%' }}>
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
           <img
-            src="/Portfolio/images/photo.jpg"
+            src="/Portfolio/images/image.jpg"
             alt="Photo de profil"
             style={{
-              width: '150px',
-              height: '150px',
+              width: '200px',
+              height: '350px',
               borderRadius: '50%',
               objectFit: 'cover',
               boxShadow: '0 0 10px rgba(0,0,0,0.3)',
