@@ -39,10 +39,10 @@ const Blackjack = () => {
       <p style={{ fontStyle: 'italic', marginBottom: '1rem' }}>Auteur : LeVraiGitPush</p>
 
       <Slider {...settings} style={{ maxWidth: '800px', margin: '0 auto 2rem' }}>
-        <img src="/Portfolio/blackjack/0.JPG" alt="Blackjack 0" style={imgStyle} />
-        <img src="/Portfolio/blackjack/1.png" alt="Blackjack 1" style={imgStyle} />
-        <img src="/Portfolio/blackjack/2.png" alt="Blackjack 2" style={imgStyle} />
-        <img src="/Portfolio/blackjack/6.png" alt="Blackjack 3" style={imgStyle} />
+        <img src="Po/blackjack/0.JPG" alt="Blackjack 0" style={imgStyle} />
+        <img src="/blackjack/1.png" alt="Blackjack 1" style={imgStyle} />
+        <img src="/blackjack/2.png" alt="Blackjack 2" style={imgStyle} />
+        <img src="/blackjack/6.png" alt="Blackjack 3" style={imgStyle} />
       </Slider>
       <h1>Description:</h1>
       <p>
