@@ -55,7 +55,7 @@ const Projets = () => {
         '/Portfolio/etnair/grafana_prometheus.png',
         '/Portfolio/etnair/portainer.png',
       ],
-      description: 'Projet RBnB: Site Web dockerisé/Pipeline CI/CD, monitoring.',
+      description: 'Projet RBnB like: Site Web dockerisé/Pipeline CI/CD, monitoring.',
     },
     {
       id: 1,
