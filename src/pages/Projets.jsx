@@ -42,8 +42,8 @@ const Projets = () => {
   const projets = [
     {
       id: 4,
-      title: 'GNS3+VirtualBox (Infrastructure Reseau Entreprise)',
-      images: ['/Portfolio/gns3/1.png', '/Portfolio/gns3/2.png', '/Portfolio/gns3/3.png', '/Portfolio/gns3/4.png'],
+      title: 'GNS3 VirtualBox Infrastructure',
+      images: ['/Portfolio/gns3/1.png', '/Portfolio/gns3/2.png', '/Portfolio/gns3/3.png'],
       description: 'Réseau virtuel avec firewall, VMs, GNS3.',
     },
     {
