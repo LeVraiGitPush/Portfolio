@@ -8,7 +8,7 @@ const Accueil = ({ scrollToSection }) => {
       style={{
         backgroundColor: 'var(--section-bg)',
         width: '100%',
-        minHeight: '100vh',
+        height: '100vh',
         position: 'relative',
         overflow: 'hidden',
         color: 'var(--text-light)',
@@ -25,8 +25,8 @@ const Accueil = ({ scrollToSection }) => {
         src="/Portfolio/images/image.jpg"
         alt="Photo de profil"
         style={{
-          width: '200px',
-          height: '220px',
+          width: '250px',
+          height: '275px',
           borderRadius: '10%',
           objectFit: 'cover',
           boxShadow: '0 0 10px rgba(0,0,0,0.3)',
