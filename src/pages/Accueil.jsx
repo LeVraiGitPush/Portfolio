@@ -16,7 +16,7 @@ const Accueil = ({ scrollToSection }) => {
         flexDirection: 'column',
         alignItems: 'center',
         paddingTop: '2rem',
-        paddingBottom: '5rem', // espace pour la flèche
+        paddingBottom: '4rem', // espace pour la flèche
         textAlign: 'center',
       }}
     >
@@ -50,13 +50,12 @@ const Accueil = ({ scrollToSection }) => {
         et mes compétences en tant qu'Administrateur en infrastructure sécurisée.
       </p>
 
-      {/* ✅ Flèche descendue et responsive */}
+      {/* ✅ Flèche descendue plus bas */}
       <div
-        className="fleche"
         onClick={() => scrollToSection('apropos')}
         style={{
           position: 'absolute',
-          bottom: '3rem', // ajustable
+          bottom: '4rem',
           left: '50%',
           transform: 'translateX(-50%)',
           cursor: 'pointer',
@@ -64,7 +63,7 @@ const Accueil = ({ scrollToSection }) => {
           animation: 'bounce 2s infinite',
         }}
       >
-        <div style={{ fontSize: '0.9rem', marginBottom: '1.5rem' }}>
+        <div style={{ fontSize: '0.9rem', marginBottom: '2rem' }}>
           Slide vers la page à propos
         </div>
         <FaArrowDown size={24} color="var(--accent)" />
@@ -78,12 +77,6 @@ const Accueil = ({ scrollToSection }) => {
             }
             50% {
               transform: translateX(-50%) translateY(-10px);
-            }
-          }
-
-          @media (min-width: 768px) {
-            .fleche {
-              bottom: 4.5rem !important;
             }
           }
         `}
