@@ -8,7 +8,7 @@ const Accueil = ({ scrollToSection }) => {
       style={{
         backgroundColor: 'var(--section-bg)',
         width: '100%',
-        height: '100vh',
+        minHeight: '100vh',
         position: 'relative',
         overflow: 'hidden',
         color: 'var(--text-light)',
