@@ -31,9 +31,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: |
-            build   # ← CRA
-            dist    # ← Vite (ça gère les 2 si les deux existent)
+          path: dist
 
   deploy:
     needs: build
