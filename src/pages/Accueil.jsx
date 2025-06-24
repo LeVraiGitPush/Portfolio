@@ -28,7 +28,7 @@ const Accueil = ({ scrollToSection }) => {
             alt="Photo de profil"
             style={{
               width: '250px',
-              height: '275px',
+              height: '270px',
               borderRadius: '10%',
               objectFit: 'cover',
               boxShadow: '0 0 10px rgba(0,0,0,0.3)',
@@ -65,7 +65,7 @@ const Accueil = ({ scrollToSection }) => {
           animation: 'bounce 2s infinite',
         }}
       >
-        <div style={{ fontSize: '0.9rem', marginTop: '1.5rem'  }}>Slide vers la page à propos</div>
+        <div style={{ fontSize: '0.9rem', marginBottom: '0.3rem', marginTop: '1.5rem'  }}>Slide vers la page à propos</div>
         <FaArrowDown size={20} color="var(--accent)" />
       </div>
 
