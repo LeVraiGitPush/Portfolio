@@ -22,7 +22,7 @@ const Accueil = ({ scrollToSection }) => {
     >
       {/* ✅ Image centrée et responsive */}
       <img
-        src="/images/image.jpg"
+        src="Portfolio/images/image.jpg"
         alt="Photo de profil"
         style={{
           width: '250px',
