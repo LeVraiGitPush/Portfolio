@@ -38,7 +38,7 @@ const ProjetDetail = () => {
           height: '100vh' 
         }}>
           <h2>Projet non trouvé</h2>
-          <a href="/" style={{ color: 'var(--accent)', textDecoration: 'underline' }}>
+          <a href="/Portfolio/" style={{ color: 'var(--accent)', textDecoration: 'underline' }}>
             Retour à l'accueil
           </a>
         </div>

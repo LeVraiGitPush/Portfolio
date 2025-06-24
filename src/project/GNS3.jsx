@@ -31,10 +31,7 @@ const GNS3 = () => {
   minHeight: '100vh', 
   overflowY: 'auto' 
 }}>
-      {/* Bouton retour */}
-      <a href="/" style={{ color: '#0af', textDecoration: 'underline', marginBottom: '1rem', display: 'inline-block' }}>
-        ← Retour aux projets
-      </a>
+
       <h1>Infrastructure Interne — GNS3 & VirtualBox</h1>
       <p style={{ fontStyle: 'italic', marginBottom: '1rem' }}>Auteur : LeVraiGitPush</p>
 
