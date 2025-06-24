@@ -16,7 +16,7 @@ const Accueil = ({ scrollToSection }) => {
     >
       <div style={{ textAlign: 'center', padding: '2rem' }}>
         <img
-          src="/images/photo.jpg"
+          src="/Portfolio/images/photo.jpg"
           alt="Photo de profil"
           style={{
             position: 'absolute',

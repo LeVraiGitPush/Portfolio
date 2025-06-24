@@ -89,10 +89,10 @@ const ParcoursEtFormations = ({ scrollToSection }) => {
       <div style={{ display: 'flex', flexWrap: 'wrap', gap: '2rem', marginBottom: '3rem' }}>
         <div style={{ flex: '1 1 300px', maxWidth: '400px' }}>
           <Slider {...sliderSettings}>
-            <img src="/gns3/1.png" alt="IT 1" style={imgStyle} />
-            <img src="/entreprenariat/58.JPG" alt="IT 2" style={imgStyle} />
-            <img src="/etnair/code.png" alt="IT 3" style={imgStyle} />
-            <img src="/etnair/portainer.png" alt="IT 4" style={imgStyle} />
+            <img src="/Portfolio/gns3/1.png" alt="IT 1" style={imgStyle} />
+            <img src="/Portfolio/entreprenariat/58.JPG" alt="IT 2" style={imgStyle} />
+            <img src="/Portfolio/etnair/code.png" alt="IT 3" style={imgStyle} />
+            <img src="/Portfolio/etnair/portainer.png" alt="IT 4" style={imgStyle} />
           </Slider>
         </div>
         <div style={{ flex: '2 1 300px' }}>
