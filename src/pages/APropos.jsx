@@ -32,7 +32,7 @@ const APropos = ({ scrollToSection }) => (
           <li>📧 Email perso : <a href="mailto:barthlmyxavier@gmail.com">barthlmyxavier@gmail.com</a></li>
           <li>💬 Discord : LeVraiGitPush</li>
           <li>💬 GitHub : <a href="https://github.com/LeVraiGitPush" target="_blank" rel="noopener noreferrer">LeVraiGitPush</a></li>
-          <li>📄 CV : <a href="/CV-Xavier-Barthelemy-AdminSys.pdf" target="_blank" rel="noopener noreferrer">Télécharger mon CV (PDF)</a></li>
+          <li>📄 CV : <a href="/Portfolio/cv/CV-Xavier-Barthelemy-AdminSys.pdf" target="_blank" rel="noopener noreferrer">Télécharger mon CV (PDF)</a></li>
           <li>🔗 LinkedIn : <a href="https://www.linkedin.com/in/xavier-barthelemy-766a0322b/" target="_blank" rel="noopener noreferrer">Profil LinkedIn</a></li>
           <li>📞 Téléphone : +33 7 59 53 53 31</li>
         </ul>
