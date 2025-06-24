@@ -22,7 +22,7 @@ const Accueil = ({ scrollToSection }) => {
     >
       {/* ✅ Image centrée et responsive */}
       <img
-        src="/images/image.jpg"
+        src="/Portfolio/images/image.jpg"
         alt="Photo de profil"
         style={{
           width: '200px',
@@ -55,7 +55,7 @@ const Accueil = ({ scrollToSection }) => {
         onClick={() => scrollToSection('apropos')}
         style={{
           position: 'absolute',
-          bottom: '4rem',
+          bottom: '2rem',
           left: '50%',
           transform: 'translateX(-50%)',
           cursor: 'pointer',
@@ -63,7 +63,7 @@ const Accueil = ({ scrollToSection }) => {
           animation: 'bounce 2s infinite',
         }}
       >
-        <div style={{ fontSize: '0.9rem', marginBottom: '2rem' }}>
+        <div style={{ fontSize: '0.9rem', marginBottom: '1rem' }}>
           Slide vers la page à propos
         </div>
         <FaArrowDown size={24} color="var(--accent)" />
