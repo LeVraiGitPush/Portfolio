@@ -39,15 +39,15 @@ const Zenapp = () => {
       <p style={{ fontStyle: 'italic', marginBottom: '1rem' }}>Auteur : LeVraiGitPush</p>
 
       <Slider {...settings} style={{ maxWidth: '800px', margin: '0 auto 2rem' }}>
-        <img src="/Portfolio/Thot/1.png" alt="Zenapp 1" style={imgStyle} />
-        <img src="/Portfolio/Thot/3.png" alt="Zenapp 2" style={imgStyle} />
-        <img src="/Portfolio/Thot/4.png" alt="Zenapp 3" style={imgStyle} />
-        <img src="/Portfolio/Thot/5.png" alt="Zenapp 4" style={imgStyle} />
-        <img src="/Portfolio/Thot/6.png" alt="Zenapp 5" style={imgStyle} />
-        <img src="/Portfolio/Thot/7.png" alt="Zenapp 6" style={imgStyle} />
-        <img src="/Portfolio/Thot/8.png" alt="Zenapp 7" style={imgStyle} />
-        <img src="/Portfolio/Thot/9.png" alt="Zenapp 8" style={imgStyle} />
-        <img src="/Portfolio/Thot/10.png" alt="Zenapp 9" style={imgStyle} />
+        <img src="/Thot/1.png" alt="Zenapp 1" style={imgStyle} />
+        <img src="/Thot/3.png" alt="Zenapp 2" style={imgStyle} />
+        <img src="/Thot/4.png" alt="Zenapp 3" style={imgStyle} />
+        <img src="/Thot/5.png" alt="Zenapp 4" style={imgStyle} />
+        <img src="/Thot/6.png" alt="Zenapp 5" style={imgStyle} />
+        <img src="/Thot/7.png" alt="Zenapp 6" style={imgStyle} />
+        <img src="/Thot/8.png" alt="Zenapp 7" style={imgStyle} />
+        <img src="/Thot/9.png" alt="Zenapp 8" style={imgStyle} />
+        <img src="/Thot/10.png" alt="Zenapp 9" style={imgStyle} />
       </Slider>
 
       <p>

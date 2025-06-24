@@ -39,9 +39,9 @@ const GNS3 = () => {
       <p style={{ fontStyle: 'italic', marginBottom: '1rem' }}>Auteur : LeVraiGitPush</p>
 
       <Slider {...settings} style={{ maxWidth: '800px', margin: '0 auto 2rem' }}>
-        <img src="/Portfolio/gns3/1.png" alt="GNS3 1" style={imgStyle} />
-        <img src="/Portfolio/gns3/2.png" alt="GNS3 2" style={imgStyle} />
-        <img src="/Portfolio/gns3/3.png" alt="GNS3 3" style={imgStyle} />
+        <img src="/gns3/1.png" alt="GNS3 1" style={imgStyle} />
+        <img src="/gns3/2.png" alt="GNS3 2" style={imgStyle} />
+        <img src="/gns3/3.png" alt="GNS3 3" style={imgStyle} />
       </Slider>
       <h1>Description:</h1>
       <p>

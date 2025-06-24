@@ -39,10 +39,10 @@ const Etnair = () => {
       <p style={{ fontStyle: 'italic', marginBottom: '1rem' }}>Auteur : BARTHELEMY Xavier(DevOps) Luis JIMENEZ(Dev Backend) Marwah RAJA JAVED KARAMAT(Dev Backend) Hanja RAMARLINA(Dev Frontend) Quentin MOURNIER(Dev Frontend) </p>
 
       <Slider {...settings} style={{ maxWidth: '800px', margin: '0 auto 2rem' }}>
-        <img src="/Portfolio/etnair/etnair.png" alt="Etnair 1" style={imgStyle} />
-        <img src="/Portfolio/etnair/code.png" alt="Etnair 2" style={imgStyle} />
-        <img src="/Portfolio/etnair/grafana_prometheus.png" alt="Etnair 3" style={imgStyle} />
-        <img src="/Portfolio/etnair/portainer.png" alt="Etnair 4" style={imgStyle} />
+        <img src="/etnair/etnair.png" alt="Etnair 1" style={imgStyle} />
+        <img src="/etnair/code.png" alt="Etnair 2" style={imgStyle} />
+        <img src="/etnair/grafana_prometheus.png" alt="Etnair 3" style={imgStyle} />
+        <img src="/etnair/portainer.png" alt="Etnair 4" style={imgStyle} />
       </Slider>
       <h1>Description:</h1>
       <p>
