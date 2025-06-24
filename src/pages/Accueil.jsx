@@ -28,7 +28,7 @@ const Accueil = ({ scrollToSection }) => {
             alt="Photo de profil"
             style={{
               width: '250px',
-              height: '300px',
+              height: '275px',
               borderRadius: '10%',
               objectFit: 'cover',
               boxShadow: '0 0 10px rgba(0,0,0,0.3)',
