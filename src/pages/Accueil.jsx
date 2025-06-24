@@ -16,17 +16,17 @@ const Accueil = ({ scrollToSection }) => {
         flexDirection: 'column',
         alignItems: 'center',
         paddingTop: '2rem',
-        paddingBottom: '4rem', // espace pour la flèche
+        paddingBottom: '5rem', // espace pour la flèche
         textAlign: 'center',
       }}
     >
       {/* ✅ Image centrée et responsive */}
       <img
-        src="Portfolio/images/image.jpg"
+        src="/images/image.jpg"
         alt="Photo de profil"
         style={{
-          width: '250px',
-          height: '275px',
+          width: '200px',
+          height: '220px',
           borderRadius: '10%',
           objectFit: 'cover',
           boxShadow: '0 0 10px rgba(0,0,0,0.3)',
@@ -50,12 +50,13 @@ const Accueil = ({ scrollToSection }) => {
         et mes compétences en tant qu'Administrateur en infrastructure sécurisée.
       </p>
 
-      {/* ✅ Flèche descendue plus bas */}
+      {/* ✅ Flèche descendue et responsive */}
       <div
+        className="fleche"
         onClick={() => scrollToSection('apropos')}
         style={{
           position: 'absolute',
-          bottom: '2rem',
+          bottom: '3rem', // ajustable
           left: '50%',
           transform: 'translateX(-50%)',
           cursor: 'pointer',
@@ -63,7 +64,7 @@ const Accueil = ({ scrollToSection }) => {
           animation: 'bounce 2s infinite',
         }}
       >
-        <div style={{ fontSize: '0.9rem', marginBottom: '1rem' }}>
+        <div style={{ fontSize: '0.9rem', marginBottom: '1.5rem' }}>
           Slide vers la page à propos
         </div>
         <FaArrowDown size={24} color="var(--accent)" />
@@ -79,6 +80,12 @@ const Accueil = ({ scrollToSection }) => {
               transform: translateX(-50%) translateY(-10px);
             }
           }
+
+          @media (min-width: 768px) {
+            .fleche {
+              bottom: 4.5rem !important;
+            }
+          }
         `}
       </style>
     </div>
@@ -86,5 +93,3 @@ const Accueil = ({ scrollToSection }) => {
 };
 
 export default Accueil;
-
-
