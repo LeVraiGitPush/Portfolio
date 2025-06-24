@@ -32,9 +32,6 @@ const Etnair = () => {
   overflowY: 'auto' 
 }}>
       {/* Bouton retour */}
-      <a href="/" style={{ color: '#0af', textDecoration: 'underline', marginBottom: '1rem', display: 'inline-block' }}>
-        ← Retour aux projets
-      </a>
       <h1>Etnair — Plateforme de réservation type Rbnb</h1>
       <p style={{ fontStyle: 'italic', marginBottom: '1rem' }}>Auteur : BARTHELEMY Xavier(DevOps) Luis JIMENEZ(Dev Backend) Marwah RAJA JAVED KARAMAT(Dev Backend) Hanja RAMARLINA(Dev Frontend) Quentin MOURNIER(Dev Frontend) </p>
 
