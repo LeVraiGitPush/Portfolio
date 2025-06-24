@@ -44,7 +44,7 @@ const Projets = () => {
       id: 4,
       title: 'GNS3+VirtualBox (Infrastructure Reseau Entreprise)',
       images: ['/Portfolio/gns3/1.png', '/Portfolio/gns3/2.png', '/Portfolio/gns3/3.png', '/Portfolio/gns3/4.png'],
-      description: 'Réseau virtuel avec firewall, VMs, GNS3.',
+      description: "Simulation d'un réseau virtuel d'entreprise avec gestion des acces via VirtualBox et GNS3.",
     },
     {
       id: 3,
