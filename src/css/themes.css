@@ -1,0 +1,72 @@
+/* themes.css */
+
+:root {
+  /* Dégradés bien prononcés */
+  --bg-dark-gradient: linear-gradient(135deg, #0f0f0d, #3b3b37);
+  --section-bg-gradient: linear-gradient(135deg, #1C1C1A, #474743);
+  --card-bg-gradient: linear-gradient(135deg, #2B2B28, #575754);
+
+  /* Couleurs texte et accent */
+  --text-light: #AFACA1;
+  --accent: #D4AF37;
+}
+
+/* 🎨 Minimal Luxury */
+.theme-minimal {
+  --bg-dark-gradient: linear-gradient(135deg, #141413, #3a3a36);
+  --section-bg-gradient: linear-gradient(135deg, #1C1C1A, #494946);
+  --card-bg-gradient: linear-gradient(135deg, #2B2B28, #5c5c59);
+  --text-light: #AFACA1;
+  --accent: #D4AF37;
+}
+
+/* 🌿 Digital Zen / Earthy Modern */
+.theme-zen {
+  --bg-dark-gradient: linear-gradient(135deg, #F4EDE8, #CAC4B0);
+  --section-bg-gradient: linear-gradient(135deg, #FFFFFF, #D7D3C1);
+  --card-bg-gradient: linear-gradient(135deg, #E0E0DD, #B6B6AE);
+  --text-light: #545454;
+  --accent: #B4CDBA;
+}
+
+/* 🖤 High-Contrast Minimalism */
+.theme-minimalist {
+  --bg-dark-gradient: linear-gradient(135deg, #000000, #444444);
+  --section-bg-gradient: linear-gradient(135deg, #111111, #555555);
+  --card-bg-gradient: linear-gradient(135deg, #333333, #777777);
+  --text-light: #FFFFFF;
+  --accent: #D4AF37;
+}
+
+/* 💎 Jewel Tones */
+.theme-jewel {
+  --bg-dark-gradient: linear-gradient(135deg, #6b4f3c, #a67c56);
+  --section-bg-gradient: linear-gradient(135deg, #402218, #6a3b2a);
+  --card-bg-gradient: linear-gradient(135deg, #603D2D, #8a624d);
+  --text-light: #F7E9D7;
+  --accent: #5A189A;
+}
+
+/* Utilisation générique avec transition */
+
+body {
+  background: var(--bg-dark-gradient);
+  color: var(--text-light);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.section {
+  background: var(--section-bg-gradient);
+  color: var(--text-light);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.card, .box {
+  background: var(--card-bg-gradient);
+  transition: background 0.3s ease;
+}
+
+a, button {
+  color: var(--accent);
+  transition: color 0.3s ease;
+}
