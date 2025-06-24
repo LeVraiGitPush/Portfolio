@@ -44,11 +44,11 @@ const ParcoursEtFormations = ({ scrollToSection }) => {
       <div style={{ display: 'flex', flexWrap: 'wrap', gap: '2rem', marginBottom: '3rem' }}>
         <div style={{ flex: '1 1 300px', maxWidth: '400px' }}>
           <Slider {...sliderSettings}>
-            <img src="/Ingenieur/1.jpg" alt="École 1" style={imgStyle} />
-            <img src="/Ingenieur/2.jpg" alt="École 2" style={imgStyle} />
-            <img src="/Ingenieur/3.jpg" alt="École 3" style={imgStyle} />
-            <img src="/Ingenieur/4.jpg" alt="École 4" style={imgStyle} />
-            <img src="/Ingenieur/5.jpg" alt="École 5" style={imgStyle} />
+            <img src="/Portfolio/Ingenieur/1.jpg" alt="École 1" style={imgStyle} />
+            <img src="/Portfolio/Ingenieur/2.jpg" alt="École 2" style={imgStyle} />
+            <img src="/Portfolio/Ingenieur/3.jpg" alt="École 3" style={imgStyle} />
+            <img src="/Portfolio/Ingenieur/4.jpg" alt="École 4" style={imgStyle} />
+            <img src="/Portfolio/Ingenieur/5.jpg" alt="École 5" style={imgStyle} />
           </Slider>
         </div>
         <div style={{ flex: '2 1 300px' }}>
@@ -77,10 +77,10 @@ const ParcoursEtFormations = ({ scrollToSection }) => {
         </div>
         <div style={{ flex: '1 1 300px', maxWidth: '400px' }}>
           <Slider {...sliderSettings}>
-            <img src="/entreprenariat/1.png" alt="Business 1" style={imgStyle} />
-            <img src="/entreprenariat/2.png" alt="Business 2" style={imgStyle} />
-            <img src="/entreprenariat/3.png" alt="Business 3" style={imgStyle} />
-            <img src="/entreprenariat/4.png" alt="Business 4" style={imgStyle} />
+            <img src="/Portfolio/entreprenariat/1.png" alt="Business 1" style={imgStyle} />
+            <img src="/Portfolio/entreprenariat/2.png" alt="Business 2" style={imgStyle} />
+            <img src="/Portfolio/entreprenariat/3.png" alt="Business 3" style={imgStyle} />
+            <img src="/Portfolio/entreprenariat/4.png" alt="Business 4" style={imgStyle} />
           </Slider>
         </div>
       </div>
@@ -89,10 +89,10 @@ const ParcoursEtFormations = ({ scrollToSection }) => {
       <div style={{ display: 'flex', flexWrap: 'wrap', gap: '2rem', marginBottom: '3rem' }}>
         <div style={{ flex: '1 1 300px', maxWidth: '400px' }}>
           <Slider {...sliderSettings}>
-            <img src="/gns3/1.png" alt="IT 1" style={imgStyle} />
-            <img src="/entreprenariat/58.JPG" alt="IT 2" style={imgStyle} />
-            <img src="/etnair/code.png" alt="IT 3" style={imgStyle} />
-            <img src="/etnair/portainer.png" alt="IT 4" style={imgStyle} />
+            <img src="/Portfolio/gns3/1.png" alt="IT 1" style={imgStyle} />
+            <img src="/Portfolio/entreprenariat/58.JPG" alt="IT 2" style={imgStyle} />
+            <img src="/Portfolio/etnair/code.png" alt="IT 3" style={imgStyle} />
+            <img src="/Portfolio/etnair/portainer.png" alt="IT 4" style={imgStyle} />
           </Slider>
         </div>
         <div style={{ flex: '2 1 300px' }}>
