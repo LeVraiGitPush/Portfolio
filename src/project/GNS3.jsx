@@ -42,6 +42,7 @@ const GNS3 = () => {
         <img src="/Portfolio/gns3/1.png" alt="GNS3 1" style={imgStyle} />
         <img src="/Portfolio/gns3/2.png" alt="GNS3 2" style={imgStyle} />
         <img src="/Portfolio/gns3/3.png" alt="GNS3 3" style={imgStyle} />
+        <img src="/Portfolio/gns3/4.png" alt="GNS3 3" style={imgStyle} />
       </Slider>
       <h1>Description:</h1>
       <p>
