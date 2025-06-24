@@ -27,9 +27,9 @@ const Accueil = ({ scrollToSection }) => {
             src="/Portfolio/images/image.jpg"
             alt="Photo de profil"
             style={{
-              width: '200px',
+              width: '250px',
               height: '350px',
-              borderRadius: '50%',
+              borderRadius: '0',
               objectFit: 'cover',
               boxShadow: '0 0 10px rgba(0,0,0,0.3)',
               marginBottom: '1rem',
