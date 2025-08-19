@@ -69,11 +69,24 @@ const ParcoursEtFormations = ({ scrollToSection }) => {
           <h3>Expériences entrepreneuriales et salariées</h3>
           <p> Mes capacités d’adaptation m’ont permis de suivre et de mener à bien plusieurs projets et cursus divers et variés :</p>
           <p>
-          J’ai lancé plusieurs projets en ligne, dont une chaîne YouTube automatisée, des boutiques en dropshipping et en e-commerce. Ces expériences m'ont permis de développer des compétences concrètes en création de contenu, marketing digital, gestion de projet et vente en ligne.
-
-Parallèlement, j’ai initié plusieurs projets autour de l’intelligence artificielle, notamment le développement d’un SaaS basé sur des modèles de langage (GPT-4, Claude, Gemini, Mistral, Llama). Ce travail m’a permis d’explorer en profondeur le prompt engineering (création et optimisation de prompts, réduction des coûts/latence, guidelines de bonnes pratiques), la programmation (Python, JSX, TSX, intégration d’APIs IA). J’assure également une veille scientifique active afin de rester au fait des dernières avancées en IA et en génération de contenu.
-
-Mon expérience en entreprise m’a permis d’affiner mes compétences humaines (communication, collaboration, gestion du temps) ainsi que techniques, en travaillant dans des environnements structurés et orientés résultats. Pour financer mes projets, j’ai travaillé dans la restauration et l’hôtellerie, de Paris à la Suisse, où j’ai eu l’occasion de manager des équipes. Ce travail demande rigueur, organisation, résilience et une grande résistance au stress — des qualités que je continue de mettre en pratique dans mes projets numériques et technologiques.
+          J’ai lancé plusieurs projets en ligne, dont une chaîne YouTube automatisée,
+            des boutiques en dropshipping et en e-commerce. Ces expériences m'ont permis de développer 
+            des compétences concrètes en création de contenu, marketing digital, gestion de projet et 
+            vente en ligne.
+            -Parallèlement, j’ai initié plusieurs projets autour de l’intelligence artificielle, 
+            notamment le développement d’un SaaS basé sur des modèles de langage 
+            (GPT-4, Claude, Gemini, Mistral, Llama). Ce travail m’a permis d’explorer en profondeur 
+            le prompt engineering (création et optimisation de prompts, réduction des coûts/latence, 
+            guidelines de bonnes pratiques), la programmation (Python, JSX, TSX, intégration d’APIs IA). 
+            J’assure également une veille scientifique active afin de rester au fait des dernières avancées 
+            en IA et en génération de contenu.
+            -Mon expérience en entreprise m’a permis d’affiner mes compétences humaines 
+            (communication, collaboration, gestion du temps) ainsi que techniques, 
+            en travaillant dans des environnements structurés et orientés résultats.
+            Pour financer mes projets, j’ai travaillé dans la restauration et l’hôtellerie, 
+            de Paris à la Suisse, où j’ai eu l’occasion de manager des équipes. Ce travail demande rigueur, 
+            organisation, résilience et une grande résistance au stress — 
+            des qualités que je continue de mettre en pratique dans mes projets numériques et technologiques.
           </p>
         </div>
         <div style={{ flex: '1 1 300px', maxWidth: '400px' }}>
